@@ -35,10 +35,6 @@ This is my personal portfolio website built to showcase my skills, education, an
 2. Open index.html in any web browser
 
 
-📸 Screenshots
-(Add screenshots of your website here)
-
-
 🌍 Live Demo
 (Add your live website link here – GitHub Pages / Netlify)
 
