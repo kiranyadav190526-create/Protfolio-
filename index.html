@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div class="logo">KIRAN</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">✨ B.Tech Student</div>
+            <h1>Hi, I'm <br><span class="gradient-text">Kiran Yadav</span></h1>
+            <p>First-year B.Tech student at PW IOI passionate about technology and innovation. Building a strong foundation in computer science while exploring endless possibilities in the tech world.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="cta-button primary-btn">Let's Connect</a>
+                <a href="#education" class="cta-button secondary-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-circle">👩‍💻</div>
+        </div>
+        <div class="floating-elements">
+            <div class="float-item">💻</div>
+            <div class="float-item">🎓</div>
+            <div class="float-item">⚡</div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-header">
+            <div class="section-badge">My Journey</div>
+            <h2>Education</h2>
+            <p class="section-description">My academic path towards becoming a skilled computer science professional</p>
+        </div>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>PW IOI</h3>
+                    <div class="degree">Bachelor of Technology (B.Tech)</div>
+                    <div class="date">📅 Sep 2025 - Sep 2029</div>
+                    <p>Currently pursuing B.Tech in Computer Science & Engineering. Focusing on building strong fundamentals in programming, data structures, and modern development practices.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Fatima Inter College</h3>
+                    <div class="degree">12th Standard</div>
+                    <div class="date">📅 Apr 2023 - Mar 2024</div>
+                    <p>Completed senior secondary education from Fatima Inter College, Mankapur, Gonda with dedication and excellence.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Fatima Inter College</h3>
+                    <div class="degree">10th Standard</div>
+                    <div class="date">📅 Apr 2021 - Mar 2022</div>
+                    <p>Completed secondary education from Fatima Inter College, Mankapur, Gonda, laying the foundation for my academic journey.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header">
+            <div class="section-badge">What I Know</div>
+            <h2>Skills & Tools</h2>
+            <p class="section-description">Currently developing proficiency in various technologies and tools</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Programming</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">C</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎬</div>
+                <h3>Creative Tools</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Filmora</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Languages</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">English</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <div class="section-badge">Get In Touch</div>
+            <h2>Contact Me</h2>
+            <p class="section-description">Feel free to reach out for collaborations or just a friendly chat</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="icon">📧</div>
+                    <h4>Email</h4>
+                    <a href="mailto:kiran.yadav.sot25@pwioi.com">kiran.yadav.sot25@pwioi.com</a>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📱</div>
+                    <h4>Phone</h4>
+                    <a href="tel:+919336846311">+91 9336846311</a>
+                </div>
+                <div class="info-item">
+                    <div class="icon">💼</div>
+                    <h4>LinkedIn</h4>
+                    <a href="#" target="_blank">Connect with me</a>
+                </div>
+            </div>
+            <form onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" title="LinkedIn">💼</a>
+            <a href="mailto:kiran.yadav.sot25@pwioi.com" title="Email">📧</a>
+            <a href="#" title="GitHub">🔗</a>
+            <a href="#" title="Twitter">🐦</a>
+        </div>
+        <p>&copy; 2024 Kiran Yadav. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
