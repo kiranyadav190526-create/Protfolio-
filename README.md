@@ -1,3 +1,5 @@
+# 🌐 Personal Portfolio Website
+
 This is my personal portfolio website built to showcase my skills, education, and contact information in a clean and professional way.
 
 ---
@@ -31,24 +33,40 @@ This is my personal portfolio website built to showcase my skills, education, an
    ```bash
    git clone https://github.com/your-username/portfolio.git
 2. Open index.html in any web browser
+
+
 📸 Screenshots
 (Add screenshots of your website here)
+
 
 🌍 Live Demo
 (Add your live website link here – GitHub Pages / Netlify)
 
+
 🎯 Purpose of the Project
-Create an online professional presence
-Practice frontend web development
-Showcase skills and projects
+
+. Create an online professional presence
+
+. Practice frontend web development
+
+. Showcase skills and projects
+
 
 🔮 Future Enhancements
-Add resume download option
-Backend integration for contact form
-Dark/Light mode
-Project showcase section
+
+. Add resume download option
+
+. Backend integration for contact form
+
+. Dark/Light mode
+
+. Project showcase section
+
 
 📚 References
-MDN Web Docs
-W3Schools
-JavaScript.info
+
+. MDN Web Docs
+
+. W3Schools
+
+. JavaScript.info
